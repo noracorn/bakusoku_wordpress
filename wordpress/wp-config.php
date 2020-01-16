@@ -26,22 +26,22 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'exampledb');
 
 /** MySQL データベースのユーザー名 */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'exampleuser');
 
 /** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'examplepass');
 
 /** MySQL のホスト名 */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
-define( 'DB_COLLATE', '' );
+define( 'DB_COLLATE', '');
 
 /**#@+
  * 認証用ユニークキー
@@ -52,14 +52,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '556a41a16fb414537327cc932ea0fec3c55c32ec');
+define( 'SECURE_AUTH_KEY',  'c836ed0a3209d1f8d14d6b05d7a6394244c0e8bc');
+define( 'LOGGED_IN_KEY',    'f1374fb2ca9e2c4c6bf505a49da90210a10d8777');
+define( 'NONCE_KEY',        '4a5fac8f127ff400793fb602cd4341275399fd80');
+define( 'AUTH_SALT',        '672e6f055a068a2154f232a063bf0488197be2c1');
+define( 'SECURE_AUTH_SALT', '27e49ee48a6b5b1454b1ca386ad3129ad5bb042f');
+define( 'LOGGED_IN_SALT',   'aebf4c14be765e58cd7e68583c4461b26e1b0cbc');
+define( 'NONCE_SALT',       '11cc17639cf2948715df2eca02b8d356f1ec23f2');
 
 /**#@-*/
 
